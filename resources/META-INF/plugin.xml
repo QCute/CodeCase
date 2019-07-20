@@ -1,7 +1,7 @@
 <idea-plugin url="http://github.com/QCute/CodeCase">
   <id>io.github.QCute.CodeCase</id>
   <name>CodeCase</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <vendor email="baldoor@qq.com" url="http://github.com/QCute/CodeCase">QCute</vendor>
 
   <description><![CDATA[
@@ -41,6 +41,12 @@
             description="Switches between space case, kebab-case, snake_case, PascalCase, camelCase">
       <add-to-group group-id="EditSmartGroup" anchor="after" relative-to-action="EditorToggleCase"/>
       <keyboard-shortcut keymap="$default" first-keystroke="shift alt U"/>
+    </action>
+    <action id="io.github.QCute.CodeCase.CodeCompletion" class="io.github.QCute.CodeCase.CodeCompletion"
+            text="Toggle Code Case"
+            description="Complete Code">
+      <add-to-group group-id="EditSmartGroup" anchor="after" relative-to-action="EditorToggleCase"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift alt P"/>
     </action>
   </actions>
 
