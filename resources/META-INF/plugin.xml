@@ -2,7 +2,7 @@
   <id>io.github.QCute.CodeCase</id>
   <name>CodeCase</name>
   <version>1.0.0</version>
-  <vendor email="baldoor@qq.com" url="http://github.com/QCute/CodeCase">QCute</vendor>
+  <vendor email="759276607@qq.com" url="http://github.com/QCute/CodeCase">QCute</vendor>
 
   <description><![CDATA[
       Switch easily between space case, kebab-case, snake_case, PascalCase, camelCase See Edit menu or use Shift + Alt + U.
